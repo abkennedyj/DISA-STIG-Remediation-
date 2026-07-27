@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-   User Account Control must run all administrators in Admin Approval Mode, enabling UAC.
+   Indexing of encrypted files has been disabled.
    
 .NOTES
     Author          : Josiah Kennedy
@@ -11,8 +11,8 @@
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
-    STIG-ID         : WN11-CC-000155
-    Documentation   : https://stigaview.com/products/win11/v2r7/WN11-SO-000270/
+    STIG-ID         : WN11-CC-000305
+    Documentation   : https://stigaview.com/products/win11/v2r7/WN11-CC-000305/
 
 .TESTED ON
     Date(s) Tested  : 2026-07-27
@@ -22,7 +22,7 @@
 
 .USAGE
     Run script As Admin in PowerShell 
-    PS C:\> .\WN11-SO-000270.ps1
+    PS C:\> .\WN11-CC-000305.ps1
 #>
 
 # Ensure the registry path exists
@@ -35,3 +35,5 @@ New-ItemProperty `
     -PropertyType DWord `
     -Value 0 `
     -Force | Out-Null
+
+Write-Host "Indexing of encrypted files has been disabled."
