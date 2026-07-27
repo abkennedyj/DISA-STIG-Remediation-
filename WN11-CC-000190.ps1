@@ -1,7 +1,7 @@
 <#
 .SYNOPSIS
-    Autoplay must be turned off for non-volume devices.
-
+    AutoPlay disabled for all drives
+    
 .NOTES
     Author          : JosiahKennedy
     LinkedIn        : linkedin.com/in/josiahtakyi/
