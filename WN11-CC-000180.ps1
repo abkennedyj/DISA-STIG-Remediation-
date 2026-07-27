@@ -38,4 +38,4 @@ New-ItemProperty `
     -Value 1 `
     -Force | Out-Null
 
-Write-Host "WN11-CC-000180 applied: AutoPlay disabled for non-volume devices." -ForegroundColor GreenE
+Write-Host "WN11-CC-000180 applied: AutoPlay disabled for non-volume devices." -ForegroundColor Green
