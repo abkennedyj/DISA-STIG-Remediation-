@@ -1,1 +1,0 @@
-# DISA-STIG-Remediation-
