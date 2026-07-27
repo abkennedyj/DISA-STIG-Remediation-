@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Command line data must be included in process creation events.
+    Virtualization-based Security must be enabled on Windows 11 with the platform security level configured to Secure Boot or Secure Boot with DMA Protection. 
     
 .NOTES
     Author          : JosiahKennedy
